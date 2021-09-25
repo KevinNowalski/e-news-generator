@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+[v-cloak] { display: none }
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x:hidden;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Poppins',sans-serif
+}
+
+h1{
+    font-size: 26px;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 0
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h4{
+    margin: 0;
+    padding: 15px;
+}
+
+h4 a{
+    text-decoration:none;
+    color:#000;
+}
+
+h4 a:hover{
+    text-decoration: underline;
+}
+
+#header{
+    background:#eee;
+    border-bottom:1px solid #000
+}
+
+#main{
+    padding: 0 15px;
+    width:1320px;
+    max-width:100%;
+    margin:0 auto 60px;
+    height: 100vh;
+}
+
+#main img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-height: 459px;
+    object-fit: cover;
+}
+
+#results{
+    padding: 60px 0 0;
+    color: #000;
+    display: block;
+}
+
+#results a{
+    text-decoration: none;
+    color: #000;
+}
+
+#results a:hover{
+    text-decoration: underline;
+}
+
+#footer{
+    background:#eee;
+    padding: 15px 0;
+    border-top:1px solid #000;
+
+}
+
+#footer h4{
+    margin: 0 auto;
+    padding: 0 15px;
+    width:1320px;
+    max-width:100%;
+}
