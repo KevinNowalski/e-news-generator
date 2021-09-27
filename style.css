@@ -51,15 +51,14 @@ h4 a:hover{
     width:1320px;
     max-width:100%;
     margin:0 auto 60px;
-    height: 100vh;
+    min-height: 1100px;
 }
 
 #main img{
-    width: 100%;
     margin: 0 auto;
     display: block;
-    max-height: 459px;
-    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #results{

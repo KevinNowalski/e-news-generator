@@ -4,11 +4,12 @@ const app = Vue.createApp({
             content: '',
             image: '',
             readMore: '',
-            tile: ''
+            title: '',
+            date: ''
         }
     },
     created() {
-        fetch('https://inshortsapi.vercel.app/news?category=health')
+        fetch('https://inshortsapi.vercel.app/news?category=entertainment')
             .then(result => result.json())
             .then(data => {
             console.log("data",data);
@@ -16,6 +17,7 @@ const app = Vue.createApp({
             this.image = data.data[0].imageUrl;
             this.readMore = data.data[0].readMoreUrl;
             this.title = data.data[0].title;
+            this.date = data.data[0].date;
         });
     }
 })
